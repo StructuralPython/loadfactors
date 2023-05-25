@@ -5,7 +5,7 @@ of load factors according to your local building code.
 
 __version__ = "0.0.1"
 
-from .loadfactors import (
+from loadfactors.loadfactors import (
     Load,
     open_load_combinations,
     factored_max,
